@@ -11,21 +11,19 @@ catering_sale = dir_name + '/data/catering_sale.xls'
 # 读取数据，指定日期列为索引
 data = pd.read_excel(catering_sale, index_col = u'日期')
 # 数据文件的大概描述，包括均值，数量，最大值等等
-statictics = data.describe()
-print(statictics)
+statistics = data.describe()
+print("数据概况：\n {}".format(statistics))
 # loc是根据dataframe的具体标签选取列，而iloc是根据标签所在的位置，从0开始计数
-count = statictics.loc['count'][0]
-std = statictics.loc['std'][0]
-print("count:\t", count)
-print("std:\t", std)
+count = statistics.loc['count'][0]
+std = statistics.loc['std'][0]
+print("count: {} std: {}".format(count, std))
 # 在文件的基础属性上衍生计算出来的其他值，如极差，变异系数
 # data.describe()可以通过loc直接添加标签
-# 标准差
-statictics.loc['range'] = statictics.loc['max'][0] - statictics.loc['min'][0]
+# 极差
+statistics.loc['range'] = statistics.loc['max'][0] - statistics.loc['min'][0]
 # 变异系数
-statictics.loc['cv'] = statictics.loc['std'][0] / statictics.loc['mean'][0]
-print(statictics)
-print("size:\t", len(data))
+statistics.loc['cv'] = statistics.loc['std'][0] / statistics.loc['mean'][0]
+print("修改后：\n {} \nsize: {}".format(statistics, len(data)))
 
 import matplotlib.pyplot as plt
 # 用来正常显示中文标签
