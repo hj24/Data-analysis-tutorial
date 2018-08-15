@@ -14,6 +14,16 @@
 
 ## 目录
 
+0. chapter 0辅助性资料
+
+   [chapter0 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter0)
+
 1. chapter 1数据预处理
 
-   [chapter1 目录]()
+   [chapter1 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter1)
+
+2. chapter 2
+
+3. chapter 3 挖掘建模
+
+   [chapter3 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter3)
