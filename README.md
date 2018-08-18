@@ -17,9 +17,9 @@
 
 0. chapter 0辅助性资料
 
-    [chapter0 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter0)
+     [chapter0 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter0)
 
-    - markdown常用命令
+     - markdown常用命令
 
 1. chapter 1数据探索
 
@@ -35,6 +35,7 @@
 
    - 时间序列分析
    - 聚类分析
+   - 人工神经网络
 
 4. chapter 4 实战项目
 
