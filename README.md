@@ -29,6 +29,10 @@
 
 2. chapter 2 数据预处理
 
+   [chapter2 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter2)
+
+   - PCA降维
+
 3. chapter 3 挖掘建模
 
    [chapter3 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter3)
