@@ -32,6 +32,7 @@
    [chapter2 目录](https://github.com/hj24/Data-analysis-tutorial/tree/master/chapter2)
 
    - PCA降维
+   - 数据规范化
 
 3. chapter 3 挖掘建模
 
