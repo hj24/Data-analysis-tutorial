@@ -2,5 +2,6 @@
 
 ## 传送门
 
-1. [PCA降维](https://github.com/hj24/Data-analysis-tutorial/blob/master/chapter2/documents/PCA降维.md)
-2. [数据规范化](https://github.com/hj24/Data-analysis-tutorial/blob/master/chapter2/documents/数据规范化.md)
+1. [基于基站定位的移动商圈划分](https://github.com/hj24/Data-analysis-tutorial/blob/master/chapter2/documents/PCA降维.md)
+
+
